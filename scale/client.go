@@ -158,7 +158,7 @@ func (c *namespacedScaleClient) Update(resource schema.GroupResource, scale *aut
 	}
 
 	// Currently, a /scale endpoint can receive and return different scale types.
-	// Until we hvae support for the alternative API representations proposal,
+	// Until we have support for the alternative API representations proposal,
 	// we need to deal with sending and accepting differnet API versions.
 
 	// figure out what scale we actually need here
